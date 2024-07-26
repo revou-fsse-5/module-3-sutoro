@@ -1,6 +1,6 @@
 # Random Recipe Finder
 
-This website provides a simple recipe especially for Gorengan L❤️verssss. It's so simple, so much so that anyone without cooking experience would be able to follow the recipe easily.
+This website [Random Recipe Finder](https://revou-fsse-5.github.io/module-3-sutoro/) provides a simple recipe especially for Gorengan L❤️verssss. It's so simple, so much so that anyone without cooking experience would be able to follow the recipe easily.
 
 The "Get Random Recipe" button is kept so that it will generate different recipe in no particular order (random as the name suggests) everytime the user click on it.
 
@@ -18,6 +18,6 @@ The "Get Random Recipe" button is kept so that it will generate different recipe
 ![screenshot](screenshot.png)
 
 ## Challenges
-Unable to display image to the page.
+Unable to display the image properly.
 
 
