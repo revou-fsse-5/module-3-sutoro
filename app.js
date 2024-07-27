@@ -26,7 +26,7 @@ const recipes = [
   },
   {
     name: "Cireng (Tapioca Fritters)",
-    image: https://cdn1-production-images-kly.akamaized.net/h0fr49hHUN_nalir9RhV8dN3ai8=/640x640/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3535886/original/062497100_1628523130-IG_resepmasakanrumah__.jpg",
+    image: "https://cdn1-production-images-kly.akamaized.net/h0fr49hHUN_nalir9RhV8dN3ai8=/640x640/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3535886/original/062497100_1628523130-IG_resepmasakanrumah__.jpg",
     ingredients: ["Tapioca starch", "garlic", "scallions", "salt", "sugar", "vegetable powder", "water", "oil"],
     steps: "Mix tapioca starch, garlic, scallions, salt, sugar, and vegetable powder in a bowl. Add water and knead until dough forms. Shape the dough into small balls and fry in hot oil until crispy."
   }
