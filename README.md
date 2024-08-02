@@ -1,23 +1,18 @@
 # Random Recipe Finder
+The project uses JavaScript to fetch a random recipe from TheMealDB API and dynamically display it on the web page. 
 
-This website [Random Recipe Finder](https://revou-fsse-5.github.io/module-3-sutoro/) provides a simple recipe especially for Gorengan L❤️verssss. It's so simple, so much so that anyone without cooking experience would be able to follow the recipe easily.
-
-The "Get Random Recipe" button is kept so that it will generate different recipe in no particular order (random as the name suggests) everytime the user click on it.
+This has been deployed in GitHub -> [Random Recipe Finder](https://revou-fsse-5.github.io/module-3-sutoro/)
 
 
 
 ## Implemented Functionality
-- **Define Recipes**: An array of recipe objects is defined, where each object represents a recipe. Each recipe object has properties like `name`, `image`, `ingredients`, and `steps`.
-- **Get Elements**: The getRecipeBtn and recipeContainer constants are assigned the HTML elements with the IDs `getRecipeBtn` and `recipeContainer`, respectively. These represent the “Get Random Recipe” button and the container where the recipe details will be displayed.
-- **Event Listener**: An event listener is added to the “Get Random Recipe” button. When the button is clicked, a function is executed.
-- **Random Recipe**: Inside the function, a random recipe is selected from the recipes array.
-- **Recipe Details**: The details of the random recipe are then formatted into a string of HTML. This includes an image, the recipe name, a list of ingredients, and the steps to make the recipe.
-- **Display Recipe**: Finally, the HTML string is inserted into the `recipeContainer` element, effectively displaying the details of the random recipe on the webpage.
-
+- **Button and Container**: The code first retrieves the button element with the ID getRecipeBtn and the container element with the ID recipeContainer from the HTML document.
+- **Event Listener**: An event listener is added to the button, which triggers a function when the button is clicked.
+- **Fetching the Recipe**: Inside the function, the code makes an asynchronous request to TheMealDB API using the fetch function. It then awaits the response and parses it as JSON.
+- **Creating Recipe Details**: The retrieved recipe data is used to dynamically create an HTML structure containing the recipe image, name, ingredients list, and instructions.
+- **Displaying the Recipe**: Finally, the generated HTML string is set as the inner HTML of the recipeContainer element, showcasing the recipe on the web page.
+- **Error Handling**: The code includes error handling to gracefully handle potential issues during the API call. If an error occurs, it displays a user-friendly message in the recipe container.
 ## Screenshot
 ![screenshot](screenshot.png)
-
-## Challenges
-Unable to display the image properly.
 
 
