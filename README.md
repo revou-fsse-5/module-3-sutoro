@@ -1,9 +1,16 @@
-# Random Recipe Finder
+# [Random Recipe Finder 🔗](https://revou-fsse-5.github.io/module-3-sutoro/)
 The project uses JavaScript to fetch a random recipe from TheMealDB API and dynamically display it on the web page. 
 
-This has been deployed in GitHub -> [Random Recipe Finder](https://revou-fsse-5.github.io/module-3-sutoro/)
+The code implements `async/await` to handle asynchronous operations, specifically fetching data from TheMealDB API. This approach makes the code more readable and easier to understand compared to using traditional promise-based callbacks.
 
+**Async**:
+- Marks a function as asynchronous, meaning it can handle promises without blocking the execution of other code.
+- Automatically returns a promise.
 
+**Await**:
+- Can only be used within an async function.
+- Pauses the execution of the async function until the promised value is available.
+- Returns the resolved value of the promise.
 
 ## Implemented Functionality
 - **Button and Container**: The code first retrieves the button element with the ID getRecipeBtn and the container element with the ID recipeContainer from the HTML document.
